@@ -9,6 +9,6 @@
 
 ## <i> Bilgilendirme </i>
 
-**• Çalınması vb durumlarda gerekli işlemler başlatılacaktır.
-• Eğer paylaşmak isterseniz [Discord](https://discord.com/users/786876136066908190)[(Onurege#4787)](https://discord.com/users/786876136066908190) üzerinden bana ulaşabilirsiniz
+** Çalınması vb durumlarda gerekli işlemler başlatılacaktır.
+ Eğer paylaşmak isterseniz [Discord(Onurege#4787)](https://discord.com/users/786876136066908190) üzerinden bana ulaşabilirsiniz
 **
