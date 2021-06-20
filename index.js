@@ -42,6 +42,6 @@ client.on('message',async(message)=>{
 })
 // --------------------------------------------------- R E A D Y -------------------------------------- \\
 client.on('shardReady',async (shard)=>{
-    await client.user.setActivity(`NQN Copy • ${shard+1}/${client.shard.count}`)
+    await client.user.setActivity(`NQN Copy By Onurege • ${shard+1}/${client.shard.count}`)
     console.log("[--------------------- R E A D Y ---------------------]");
 })
