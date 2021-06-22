@@ -10,9 +10,11 @@ client.login(TOKEN)
 client.on('message',async(message)=>{
     if(!message.guild && message.author.bot) return;
     var msg = message.content;
+    // Yeni Kısım
     if(msg.mentions.roles.first) return;
     if(msg.includes("@everyone")) return;
     if(msg.inculdes("@here"))return;
+    // Yeni Kısım
     if(msg.includes("discord.gg")) return;
     let emojis = msg.match(/(?<=:)([^:\s]+)(?=:)/g)
   if (!emojis) return;
