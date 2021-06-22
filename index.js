@@ -1,6 +1,8 @@
 // --------------------------------------------------- V A R I B L E S -------------------------------------- \\
 var Discord = require('discord.js')
-var client = new Discord.Client()
+var client = new Discord.Client({
+    disableMentions: ["@everyone","@here"]
+})
 var {TOKEN} = require('./config.js')
 // --------------------------------------------------- L O G I N -------------------------------------- \\
 client.login(TOKEN)
@@ -8,6 +10,9 @@ client.login(TOKEN)
 client.on('message',async(message)=>{
     if(!message.guild && message.author.bot) return;
     var msg = message.content;
+    if(msg.mentions.roles.first) return;
+    if(msg.includes("@everyone")) return;
+    if(msg.inculdes("@here"))return;
     if(msg.includes("discord.gg")) return;
     let emojis = msg.match(/(?<=:)([^:\s]+)(?=:)/g)
   if (!emojis) return;
