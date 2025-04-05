@@ -2,13 +2,14 @@
   "name": "nqn-copy",
   "version": "1.0.0",
   "description": "",
-  "main": "shardingMenager.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node shardingMenager.js"
+    "test": "node index.js"
   },
   "author": "onure9e",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "@onurege3467/zerohelper": "^3.2.0",
+    "discord.js": "^14.18.0"
   }
 }

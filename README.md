@@ -1,14 +1,22 @@
-<img align="right" height="150rem" alt="GIF" src="https://user-images.githubusercontent.com/78586675/121921369-9cabb880-cd41-11eb-8814-0da7526ab152.gif"/>
+# NQN-Copy
 
+A Discord bot that replicates the functionality of the **Not Quite Nitro (NQN)** bot, allowing users to use custom emojis without Nitro. This bot is built using the latest version of [discord.js](https://discord.js.org/) and provides seamless emoji replacement functionality.
 
-## Merhabalar Sizin için derlediğim **NQN** Altyapısına Hoşgeldiniz.
+---
 
-## <i> Kurulum </i>
+## 🚀 Features
 
-**Altyapıyı yükledikten sonra terminal bölümüne ```npm i``` kodunu yazınız bu kod botun çalışması için gerekli modülleri (discord.js) otomatik olarak yükler ardından ```config.js``` adlı dosyayı doldurmanız gerekmektedir**
+- **Custom Emoji Replacement**: Automatically replaces emoji placeholders (e.g., `:emoji_name:`) with actual emojis from the server.
+- **Anti-Spam Filters**: Prevents messages containing `@everyone`, `@here`, or Discord invite links (`discord.gg`).
+- **Webhook Integration**: Sends messages via webhooks to mimic the original sender's username and avatar.
+- **Modern Discord.js**: Built with `discord.js v14` for optimal performance and compatibility.
 
-## <i> Bilgilendirme </i>
+---
 
-**Çalınması vb durumlarda gerekli işlemler başlatılacaktır.**
-**Eğer paylaşmak isterseniz [Discord(Onurege#4787)](https://discord.com/users/786876136066908190) üzerinden bana ulaşabilirsiniz**
+## 📦 Installation
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/NQN-Copy.git
+   cd NQN-Copy
+   ```
